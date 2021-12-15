@@ -1,3 +1,5 @@
+"""Write a function that converts the time from military to regular format."""
+
 def time12hr(time):
     hh=int(time[:2])
     if(hh>12):
